@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.v0.plugin</id>
+    <name>Version0 Api</name>
+    <version>1.0.0</version>
+
+    <vendor email="connect@tigau-enterprises.com" url="https://github.com/TigauTechnologies/version0.api-JetBrains">TigauTechnologies</vendor>
+
+    <description><![CDATA[
+    <p><strong>Version0 Api</strong> is a high-performance synchronization bridge designed for "away" workflows.</p>
+    <br>
+    <p>It establishes a secure, local network layer that allows mobile architectures to communicate directly with the JetBrains IDE environment. By utilizing mDNS discovery and dedicated TCP port mapping, it removes the friction of manual IP configuration during hardware and software testing.</p>
+    <br>
+    <p><strong>Core Infrastructure:</strong></p>
+    <ul>
+      <li>Automated local discovery via <code>version0.api.local</code></li>
+      <li>Dedicated listener on Port 5813</li>
+      <li>Optimized for remote work</li>
+    </ul>
+  ]]></description>
+    <change-notes><![CDATA[
+    <p><strong>1.0.0 - Commercial Launch</strong></p>
+    <ul>
+      <li>Established Version0 Api commercial namespace.</li>
+      <li>Integrated mDNS broadcasting for seamless mobile bridging.</li>
+      <li>Configured dynamic network IP resolution.</li>
+    </ul>
+  ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+</idea-plugin>
