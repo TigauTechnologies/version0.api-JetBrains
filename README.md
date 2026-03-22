@@ -13,5 +13,4 @@ The bridge activates automatically on startup. Ensure Port `5813` is open on you
 
 ## Requirements
 
-* VS Code v1.90.0 or higher.
 * Active local network connection for mobile discovery.
